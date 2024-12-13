@@ -25,9 +25,9 @@ Root 7 dir.
 
 2, 3 ün soluna gelir.
 
-Sonuç olarak: 
+## Sonuç olarak: 
 
-![BinaryTree](/odev-cozum.png)
+![BinaryTree](https://raw.githubusercontent.com/fatihdmrc/kodluyoruzVeriYapilari/refs/heads/main/BinaryTreeS%C4%B1ralama%C3%96dev/odev-cozum.png)
 
    
 
