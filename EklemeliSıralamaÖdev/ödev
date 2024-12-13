@@ -1,0 +1,38 @@
+Ödev:
+Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+
+Big-O gösterimini yazınız.
+
+Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+
+Average case: Aradığımız sayının ortada olması
+Worst case: Aradığımız sayının sonda olması
+Best case: Aradığımız sayının dizinin en başında olması.
+
+Çözüm:
+
+Eklemeli Sıralama : [22,27,16,2,18,6] 
+
+1. Adım:  [2,27,16,22,18,6] --> 6 eleman arasından en küçük bulunur ve ilk eleman ile yer değiştirme yapılır.
+
+2. Adım : [2,6,16,22,18,27] --> 5 eleman arasından en küçük bulunur ve ikinci eleman ile yer değiştirme yapılır.
+
+3. Adım : [2,6,16,22,18,27] --> 4 eleman arasından en küçük bulunur ve üçüncü eleman ile yer değiştirme yapılır.
+
+4. Adım : [2,6,16,18,22,27] --> 3 eleman arasından en küçük bulunur ve ikinci eleman ile yer değiştirme yapılır.
+
+5. Adım : [2,6,16,18,22,27] --> 2 eleman arasından en küçük bulunur ve ikinci eleman ile yer değiştirme yapılır.
+
+6. Adım : [2,6,16,18,22,27] --> 1 eleman kaldığı için yer değiştirme yapılmaz. Dizi sıralanmış olur.
+
+Birinci adımda 6 , ikinci adımda 5 ... ve son adımda 1 adet en küçük bulma işlemi yapılır. 
+Dizideki eleman sayısına n diyelim. n, n-1, n-2 ... 1 adet işlem yapılır.
+Bunların toplamı n.(n+1)/2 olur.
+Sonuç olarak BigO Notasyonu : O(n^2) olur.
+18 sayısı algoritmanın ilk veya son kontrol ettiği eleman değildir. Bu yüzden Worst Case ve Best Case değildir. Ortalama bir durum olduğu için --> Average Case denebilir.
+
+
+
+
+
+
